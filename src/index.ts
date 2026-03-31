@@ -1,11 +1,3 @@
-/**
- * Weather MCP — wraps Open-Meteo API (free, no auth)
- *
- * Tools:
- * - get_weather: current conditions for a lat/lon
- * - get_forecast: multi-day forecast for a lat/lon
- */
-
 interface McpToolDefinition {
   name: string;
   description: string;
@@ -20,6 +12,15 @@ interface McpToolExport {
   tools: McpToolDefinition[];
   callTool: (name: string, args: Record<string, unknown>) => Promise<unknown>;
 }
+
+/**
+ * Weather MCP — wraps Open-Meteo API (free, no auth)
+ *
+ * Tools:
+ * - get_weather: current conditions for a lat/lon
+ * - get_forecast: multi-day forecast for a lat/lon
+ */
+
 
 const BASE_URL = 'https://api.open-meteo.com/v1';
 

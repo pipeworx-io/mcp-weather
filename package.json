@@ -1,11 +1,11 @@
 {
   "name": "@pipeworx/mcp-weather",
   "version": "0.1.0",
-  "description": "MCP server for real-time weather data via Open-Meteo",
+  "description": "Weather MCP — wraps Open-Meteo API (free, no auth)",
   "type": "module",
   "main": "src/index.ts",
   "types": "src/index.ts",
-  "keywords": ["mcp", "mcp-server", "model-context-protocol", "weather", "open-meteo", "pipeworx"],
+  "keywords": ["mcp", "mcp-server", "model-context-protocol", "pipeworx", "weather"],
   "license": "MIT",
   "repository": {
     "type": "git",
