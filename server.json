@@ -1,21 +1,14 @@
 {
   "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
   "name": "io.github.pipeworx-io/weather",
-  "title": "weather",
+  "title": "Weather",
   "description": "Weather MCP — wraps Open-Meteo API (free, no auth)",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "websiteUrl": "https://pipeworx.io/packs/weather",
   "repository": {
     "url": "https://github.com/pipeworx-io/mcp-weather",
     "source": "github"
   },
-  "packages": [
-    {
-      "registryType": "npm",
-      "identifier": "@pipeworx/mcp-weather",
-      "version": "0.1.0"
-    }
-  ],
   "remotes": [
     {
       "type": "streamable-http",
