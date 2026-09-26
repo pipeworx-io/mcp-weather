@@ -1,6 +1,6 @@
 {
   "name": "@pipeworx/mcp-weather",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Weather MCP — wraps Open-Meteo API (free, no auth)",
   "type": "module",
   "main": "src/index.ts",
@@ -26,7 +26,7 @@
     "@cloudflare/workers-types": "^4.20260405.1"
   },
   "pipeworx": {
-    "sourceHash": "v1-2ca0ab37c32ec4fd88de5a82f3f6fcec29a654cc392eedf0b3a6ccee88c437c3",
-    "sourceCommit": "b0fb3c31386cf0256dcf1e2f1b3440435a87ec35"
+    "sourceHash": "v1-80daece8eb5135c254371df05c75057de44ecf40f9b505e94539e20543bac15e",
+    "sourceCommit": "2cb50b368da3267446f2b6f6a3ddbd3d0eed3d73"
   }
 }
